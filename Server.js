@@ -7,7 +7,7 @@ const Student = require('./Src/Routes/StudentRoute');
 
 //Middleware;
 App.use(express.json());
-App.use(cors({origin:'http://localhost:3000'}))
+App.use(cors({origin:'https://cred-task.netlify.app'}))
 
 //Route Controller;
 App.use('/',Student);
