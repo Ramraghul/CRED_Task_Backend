@@ -13,7 +13,7 @@ App.use(cors({origin:'https://cred-task.netlify.app'}))
 App.use('/',Student);
 
 //Port Listing;
-const PORT = processs.env.PORT || 4000;
+const PORT = process.env.PORT || 4000;
 App.listen(PORT, () => {
     console.log('Port is Running on ' + PORT);
 });
